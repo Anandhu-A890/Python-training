@@ -1,9 +1,9 @@
 intervals=[[0,30],[5,10],[15,20]]
+
 start=sorted([interval[0] for interval in intervals])
 end=sorted([interval[1] for interval in intervals])
 
 def minMeeting (start, end):
-    
     s=0
     e=0
     meeting=0
